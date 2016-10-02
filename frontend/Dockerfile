@@ -11,8 +11,8 @@ RUN npm install
 COPY app.js /usr/src/app/
 COPY bin/ /usr/src/app/bin/
 COPY views/ /usr/src/app/views/
-COPY routes/ /user/src/app/routes/
-COPY public/ /user/src/app/public/ 
+COPY routes/ /usr/src/app/routes/
+COPY public/ /usr/src/app/public/ 
 
 # Prepare to run.
 ENV PORT 3000
